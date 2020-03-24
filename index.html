@@ -1,7 +1,8 @@
+<!-- HTML5 문서의 기본 레이아웃>
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML5 기본 구조 태그2</title>
+	<title>HTML5 기본 구조 태그1</title>
 </head>
 <body>
 	<!-- 헤더 부분 -->
@@ -9,20 +10,39 @@
 		<center>
 			<h1>문서의 주제목</h1>
 		</center>
-		<hr align="center" width=50%></hr>
+		<nav>메뉴1</nav>
+		<nav>메뉴2</nav>
 	</header>
-	<!-- 본문 부분 -->
+	<hr/>
+	<!-- 본문 부분-->
 	<section>
 		<article>
-			<h2>문서 내용1</h2>
-			<h3>문서 내용2</h3>
-			<h4>문서 내용3</h4>
-			<h5>문서 내용4</h5>
-			<h6>문서 내용5</h6>
+			<header>
+				<h2>부제목1</h2>
+			</header>
+			<p>이곳은 부 세션 영역입니다.</p>
+		</article>
+		<article>
+			<header>
+				<h2>부제목2</h2>
+			</header>
+			<p>이곳은 부 세션 영역입니다.</p>
+		</article>
+		<article>
+			<hgroup>
+				<h2>대그룹</h2>
+				<h3>중그룹</h3>
+				<h4>소그룹</h4>
+			</hgroup>
 		</article>
 	</section>
-	<hr size="10" align="left" width=90% noshade="noshade"></hr>
-	<!-- 사이트 정보 부분-->
+	<!-- 부가 정보 부분 -->
+	<aside>
+		<h2>부가적 제목</h2>
+		<p>이곳은 부가적 정보를 제공하는 공간입니다.</p>
+	</aside>
+	<hr/>
+	<!-- 사이트 정보 부분 -->
 	<footer>
 		<small>사이트 정보 표시</small>
 	</footer>
