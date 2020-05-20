@@ -4,13 +4,15 @@
 		width: 300px;
 		height: 50px;
 		background: black;
+		z-index:3;
 		}
 	#b1{
 	width: 30px;
 	height: 50px;
 	background: linear-gradient(to right, yellow, black);
-	position: relative; top: -50px; left: 50px;
+	position: absolute; top: -50px; left: 50px;
 	animation: boxmove 5s linear infinite alternate;
+	z-index:2;
 	}
 	@keyframes boxmove {
 		from { left: 30px; }
@@ -20,6 +22,6 @@
 </head>
 <body>
 	<div></div>
-	<div id="b1">과제</div>
+	<div id="b1"></div>
 	<p>과제 #07-01, 이학윤(201714176)</p>
 </body>
